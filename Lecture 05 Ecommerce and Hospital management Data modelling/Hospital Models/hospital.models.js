@@ -25,7 +25,7 @@ const hositalSchema = new mongooes.Schema(
     specializedIn: [
       {
         type: String,
-        requied: true,
+        // requied: true,
       },
     ],
   },
