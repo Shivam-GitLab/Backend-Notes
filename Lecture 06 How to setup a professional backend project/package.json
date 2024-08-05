@@ -1,11 +1,20 @@
 {
   "name": "lecture-06-how-to-setup-a-professional-backend-project",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "dev" : "nodemon src/index.js"
+   },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ],
   "author": "Shivam Jha",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
